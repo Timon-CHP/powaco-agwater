@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    tools:context=".list_outKH">
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff347c12" >
+
+        <TextView
+            android:id="@+id/item1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:height="30dip"
+            android:text="Năm"
+            android:width="30dip" />
+
+        <TextView
+            android:id="@+id/item2"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:height="30dip"
+            android:text="Tháng"
+            android:layout_weight="0.06" />
+
+        <TextView
+            android:id="@+id/item3"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:height="30dip"
+            android:text="CS đầu"
+            android:layout_weight="0.05" />
+
+        <TextView
+            android:id="@+id/item4"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:height="30dip"
+            android:text="CS cuối"
+            android:width="50dip" />
+
+        <TextView
+            android:id="@+id/item5"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.72"
+            android:height="30dip"
+            android:text="Tiêu thụ"
+            android:width="20dip" />
+
+        <TextView
+            android:id="@+id/item6"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:height="30dip"
+            android:text="Thành tiền"
+            android:width="70dip" />
+    </LinearLayout>
+    
+    <!-- List Divider -->
+    <View android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="?android:attr/listDivider" />
+ 
+    <!-- ListView (grid_items) -->
+    <LinearLayout android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent">
+	    <ListView
+	        android:id="@+id/list_outputKH"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	       >
+	    </ListView>
+    </LinearLayout>
+
+</LinearLayout>

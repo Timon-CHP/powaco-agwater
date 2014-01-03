@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">POWACO_ANDROID</string>
+    <string name="hello">Chao</string><string-array name="listmain">
+        <item >Thông tin chỉ số nước</item>
+        <item >Nhập chỉ số nước</item>
+    </string-array>
+</resources>
