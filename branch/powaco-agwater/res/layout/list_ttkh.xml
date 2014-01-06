@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/colNAM"
+        android:layout_width="wrap_content"
+        
+        android:text="row_id"
+        android:textColor="#00BFFF"
+        android:layout_height="32dp"
+        android:width="40dip" />
+
+    <TextView
+        android:id="@+id/colTHANG"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:width="40dip"
+        android:text="thang"
+        android:textColor="#00BFFF" />
+
+    <TextView
+        android:id="@+id/colDAU"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:width="50dip"
+        android:text="dau"
+        android:textColor="#00BFFF" />
+
+    <TextView
+        android:id="@+id/colCUOI"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:width="50dip"
+        android:text="cuoi"
+        android:textColor="#00BFFF" />
+
+    <TextView
+        android:id="@+id/colKL"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:width="50dip"
+        android:text="kl"
+        android:textColor="#00BFFF" />
+
+    <TextView
+        android:id="@+id/colTIEN"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:width="90dip"
+        android:text="tien"
+        android:textColor="#00BFFF" />
+
+</LinearLayout>

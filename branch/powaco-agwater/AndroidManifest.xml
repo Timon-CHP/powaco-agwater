@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.powaco.agwater"      
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk
+        android:minSdkVersion="10"        
+        android:targetSdkVersion="19" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>	
+    <application 
+        		android:allowBackup="true"
+        		android:icon="@drawable/logo_powaco" 
+        		android:label="@string/app_name" 
+        		android:theme="@style/AppTheme">
+        <activity android:name="com.powaco.agwater.Menu"
+        		  android:label="Khách hàng">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!--  Entry for RegisterActivity.class -->
+        <activity android:name="com.powaco.agwater.RegisterActivity"
+        		  android:label="Register New Account"></activity>
+        <activity android:name="com.powaco.agwater.InfoKhachHang"
+        		  android:label="Danh sách"></activity>
+        
+        <activity android:name=".LoginActivity"
+                  android:label="Đăng nhập" >
+        </activity>   
+        
+        <activity android:name="com.powaco.agwater.InfoTieuThu"
+        		  android:label="Tiêu thụ"></activity>
+        <activity android:name="com.powaco.agwater.list_outKH"
+        		  android:label="Tiêu thụ"></activity>
+        <activity android:name="com.powaco.agwater.InfoChiSoNuoc"
+        		  android:label="Ghi chỉ số nước"></activity>
+        <activity android:name="com.powaco.agwater.ifgioithieu"
+        		  android:label="Thông tin"></activity>
+        <activity android:name="com.powaco.agwater.ifgianuoc"
+        		  android:label="Giá nước sạch"></activity>
+        <activity android:name="com.powaco.agwater.NhapChiSoNuoc"
+        		  android:label="Nhập chỉ số nước"
+        		  android:theme="@android:style/Theme.Holo.Dialog">            
+        </activity>
+        <activity android:name="com.powaco.agwater.KyChiSoNuoc"
+        		  android:label="Nhập kỳ ghi"
+        		  android:theme="@android:style/Theme.Holo.Dialog">            
+        </activity>
+        
+		 <activity android:name="com.google.ads.AdActivity"
+              android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        
+    </application>
+</manifest>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+    
+<TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:stretchColumns="*"
+        >
+    <TableRow android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp">
+            
+        <TextView
+                android:id="@+id/lbTHANG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tháng:" />
+        <EditText
+                android:id="@+id/txtTHANG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                />
+        
+    </TableRow> 
+    <TableRow android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp">
+            
+        <TextView
+                android:id="@+id/lbNAM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Năm:" />
+        <EditText
+                android:id="@+id/txtNAM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                />
+        
+    </TableRow>    
+    
+ </TableLayout>
+
+<Button
+    android:id="@+id/btGHI"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Bắt đầu" />
+
+</LinearLayout>
