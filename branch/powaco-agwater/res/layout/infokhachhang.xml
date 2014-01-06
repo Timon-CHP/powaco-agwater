@@ -54,25 +54,6 @@
 	        android:layout_alignParentLeft="true"
 	        >
 	    </ListView>
-	    
-	     <!-- 
-	     <com.google.ads.AdView android:id="@+id/adViewkh"
-                         android:layout_width="wrap_content"
-                         android:layout_height="wrap_content"
-                         ads:adUnitId="a15269172bec589"
-                         ads:adSize="BANNER"
-                         ads:testDevices="TEST_EMULATOR, TEST_DEVICE_ID"
-                         ads:loadAdOnCreate="true"/>
-          -->
 	</LinearLayout>
-
-	
-   
- 
-   
-	   	
-	
-
-
 </RelativeLayout>
 </ScrollView>

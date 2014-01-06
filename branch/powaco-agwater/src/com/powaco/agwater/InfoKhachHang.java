@@ -8,8 +8,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.List;
 
-import com.google.ads.AdRequest;
-import com.google.ads.AdView;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;

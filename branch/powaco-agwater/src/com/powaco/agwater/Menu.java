@@ -1,5 +1,7 @@
 package com.powaco.agwater;
 
+import com.testflightapp.lib.TestFlight;
+
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -36,7 +38,8 @@ public class Menu extends Activity{
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 	    super.onCreate(savedInstanceState);
-        setContentView(R.layout.menu);
+        TestFlight.takeOff(getApplication(), "711ec4ad-bf03-444b-8212-acb0d8db5c65");
+	    setContentView(R.layout.menu);
         
         //connect string sql
         //inicializar();        

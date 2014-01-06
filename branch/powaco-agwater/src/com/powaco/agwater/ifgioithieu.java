@@ -1,7 +1,7 @@
 package com.powaco.agwater;
 
-import com.google.ads.AdRequest;
-import com.google.ads.AdView;
+//import com.google.ads.AdRequest;
+//import com.google.ads.AdView;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -14,12 +14,12 @@ public class ifgioithieu extends Activity {
 	
 	private void QuangCao()
 	{
-		AdRequest adRequest = new AdRequest();
-        adRequest.addTestDevice(AdRequest.TEST_EMULATOR);
-        adRequest.addTestDevice("a15269172bec589"); 
-        
-        AdView adView = (AdView)this.findViewById(R.id.adView);
-        adView.loadAd(new AdRequest());
+//		AdRequest adRequest = new AdRequest();
+//        adRequest.addTestDevice(AdRequest.TEST_EMULATOR);
+//        adRequest.addTestDevice("a15269172bec589"); 
+//        
+//        AdView adView = (AdView)this.findViewById(R.id.adView);
+//        adView.loadAd(new AdRequest());
 	}
 	
 	@Override

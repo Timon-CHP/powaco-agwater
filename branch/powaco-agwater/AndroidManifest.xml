@@ -49,9 +49,5 @@
         		  android:label="Nhập kỳ ghi"
         		  android:theme="@android:style/Theme.Holo.Dialog">            
         </activity>
-        
-		 <activity android:name="com.google.ads.AdActivity"
-              android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
-        
     </application>
 </manifest>
